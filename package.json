@@ -1,0 +1,12 @@
+{
+  "name": "nutty-util",
+  "version": "0.0.1",
+  "description": "Utilities for cli applications and nutty middlewares",
+  "main": "index.js",
+  "repository": { "type": "git", "url": "https://github.com/nuttyjs/nutty-util.git" },
+  "keywords": [ "util", "utilities", "tools", "cli" ],
+  "author": "Josemi Juanes <josemijuanes@gmail.com>",
+  "homepage": "https://github.com/nuttyjs/nutty-util",
+  "license": "MIT",
+  "dependencies": {  }
+}
