@@ -1,6 +1,6 @@
 {
   "name": "nutty-util",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Utilities for cli applications and nutty middlewares",
   "main": "index.js",
   "repository": { "type": "git", "url": "https://github.com/nuttyjs/nutty-util.git" },
@@ -8,5 +8,5 @@
   "author": "Josemi Juanes <josemijuanes@gmail.com>",
   "homepage": "https://github.com/nuttyjs/nutty-util",
   "license": "MIT",
-  "dependencies": {  }
+  "dependencies": { "floby": "0.0.4" }
 }
