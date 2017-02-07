@@ -22,6 +22,37 @@ Include the library on your project:
 var util = require('nutty-util');
 ```
 
+### util.is.{TYPE}(obj)
+
+Returns `true` or `false` if the provided object is the specified type.
+
+```javascript
+//Check for undefined
+util.is.undef(a); // --> true
+
+//Check for boolean
+util.is.boolean(true); // --> true
+util.is.boolean(1); // --> false
+util.is.boolean('false'); // --> false
+
+//Check for string
+util.is.string('my string'); // --> true
+util.is.string(0.987); // --> false
+
+//Check if string is in lower or upper case
+util.is.lowerCase('my string'); // --> true
+util.is.upperCase('MY string'); // --> false
+
+//Check for number
+util.is.num('0'); // --> false
+
+//Check for integer
+util.is.int(0.12); // --> false
+
+//Check for null
+util.is.null(null); // --> true
+```
+
 ### new util.file(path, [ opt])
 
 Returns an instance of a [floby object](https://github.com/jmjuanes/floby#file--new-flobypath--options).
